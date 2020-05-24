@@ -1,0 +1,43 @@
+.com-modal-wrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 100;
+}
+
+.com-modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 500px;
+  height: 360px;
+  padding-top: 50px;
+  margin-left: -250px;
+  margin-top: -205px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  &__header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+  }
+  &__title {
+    margin: 0;
+    overflow: hidden;
+  }
+  &__close {
+    float: right;
+    cursor: pointer;
+  }
+  &__body {
+    height: 95%;
+    overflow: auto;
+  }
+}

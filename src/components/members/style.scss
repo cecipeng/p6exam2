@@ -1,0 +1,24 @@
+.blackboard-member {
+  &__list {
+    list-style: none;
+  }
+  &__item {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    img {
+      display: block;
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+}
